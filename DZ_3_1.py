@@ -4,7 +4,7 @@ a = []
 c = int(input('введите размер выборки '))
 for r in range(c):
     a.append(random.randint(1, 100))
-
+print(a)
 a.sort()
 b = int(input('введите число '))
 it = c
